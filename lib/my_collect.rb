@@ -1,6 +1,6 @@
-def my_collect(collection)
-collection = ["Tim Jones", "Tom Smith", "Jim Pagano"]
-  my_collect(collection) do |name|
+def my_collect(array)
+array = ["Tim Jones", "Tom Smith", "Jim Pagano"]
+  my_collect(array) do |name|
     name.split(" ").first
   end
 end
